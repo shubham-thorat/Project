@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bus Ticket Booking Service </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" >
+            <ul>
+                <li> <a href="#"> Home </a> </li>
+                <li> <a href="#"> Services </a> </li>
+                <li> <a href="#"> Contact us </a> </li>
+                <li> <a href="#"> About </a> </li>
+                
+            </ul>
+            <form action="backend.php" class="loginform">
+                Username : <input type="text" name="username" id="username" placeholder="Username">
+                Password : <input type="password" name="Mypassword" id="Mypassword" placeholder="Password">
+                <input type="button" value="Login">
+                <input type="button" value="createNewAccount">
+            </form>
+        </nav>
+    </header>
+    <div class="searchbox">
+        <input type="text" name="source" id="source" placeholder="Source">
+        <input type="text" name="destination" id="destination" placeholder="Destination">
+        <input type="date" name="travelDate" id="traveldate" placeholder="Date">
+        <input type="button" value="Search Bus" id="Submit">
+    </div>
+    <div class="safetymeasure">
+        <ol class="safetylist">
+            <h2> Safety Measure</h2>
+            <li>Buses will stop only as designated bus stops</li>
+            <li>
+                If a large number of passengers are noticed at any bus stop, the crew must inform the depot manager
+                about the same.
+            </li>
+            <li>
+                The driver, conductor and all other bus crew must wear face masks
+            </li>
+            <li>
+                Crew will be allowed to board the bus o after their body temperature is checked
+            </li>
+            <li>
+                Crew must use sanitizers
+            </li>
+            <li>
+                Buses must be cleaned, sanitized and disinfected before deployment
+            </li>
+        </ol>
+    </div>
+    <h3> Our Globals</h3>
+    <table class="bustable">
+       
+        <thead>
+            <tr id="headrow">
+                <td class="row">Country </td>
+                <td class="row">Buses </td>
+                <td class="row">Routes </td>
+                <td class="row">Users </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td class ="row">India </td>
+                <td class="row"> 10,000</td>
+                <td class="row">60,000</td>
+                <td class="row">40,000</td>
+            </tr> 
+            <tr >
+                <td  class="row">America </td>
+                <td class="row"> 3,000</td>
+                <td class="row">6,000</td>
+                <td class="row">10,000</td>
+            </tr>
+            <tr >
+                <td class="row">Englad  </td>
+                <td class="row"> 1000</td>
+                <td class="row">4000</td>
+                <td class="row">4000</td>
+            </tr>
+            <tr >
+                <td class="row">Iraq  </td>
+                <td class="row"> 500</td>
+                <td class="row">3000</td>
+                <td class="row">4000</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer class="Myfooter">
+        <h4> About </h4>
+        <div> Author : Shubham Thorat </div>
+        Gmail : <a href="mailto:thoratshubham048@gmail.com" id="idauthoremail"> thoratshubham048@gmail.com </a>
+    </footer>
+</body>
+
+</html>

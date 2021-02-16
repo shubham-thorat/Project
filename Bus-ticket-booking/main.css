@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1591287434500-a1d4a0bdf208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fGJ1c3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size:auto;
+}
+header{
+    border: 3px solid red;
+    background-color: aqua;
+    /* box-sizing: border-box; */
+    border-radius: 33px;
+    position: sticky;
+    top: 0px;
+    padding-bottom: 12px;
+    
+}
+.navbar li{
+    color: red;
+    display: inline-block;
+    /* float: left; */
+    /* text-decoration: none; */
+    font-size: 24px;
+    /* list-style-type: none; */
+   
+}
+.navbar li a {
+    padding: 40px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.loginform{
+    /* margin-left: 5px; */
+    padding-left: 88px;
+    font-size: 21px;
+    margin-left: 38%;
+    margin-top: -43px;
+}
+.searchbox{
+    /* border: 3px solid #ec0e95; */
+    margin: 88px auto;
+    width: 900px;
+    /* font-size: 40px; */
+    box-sizing: border-box;
+   
+}
+#source{
+    font-weight: bold;
+    color: #404040;
+    width: 20%;
+    height: 50px;
+    padding-top: 0%;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 17px;
+}
+#destination:hover,#source:hover,#Submit:hover{
+    background-color: rgb(255, 136, 136);
+}
+#destination{
+    /* height: 44px;
+    font-size: 14px;
+    font-weight: bold; */
+    font-weight: bold;
+    color: #404040;
+    width: 20%;
+    height: 50px;
+    padding-top: 0%;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 17px;
+    /* background-color: aqua; */
+}
+#traveldate{
+    /* height: 44px;
+    font-size: 14px;
+    font-weight: bold; */
+    font-weight: bold;
+    color: #404040;
+    width: 25%;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 17px;
+    /* padding-right: 10px; */
+}
+#Submit{
+    font-size: 23px;
+    width: 16%;
+    height: 50px;
+    border-radius: 17px;
+}
+
+.safetymeasure{
+    border: 2px solid greenyellow;
+    font-family: 'Lobster Two', cursive;
+    color: greenyellow;
+    font-size: 19px;
+    background-color: #7b6c6c;
+    border-radius: 30px;
+    margin-top: 20%;
+}
+.bustable{
+    /* border: 2px solid blue; */
+    padding-right: 29px;
+    margin-top: 12px;
+   
+    padding-bottom: 5px;
+
+}
+td{
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+    border: 2px solid #eaf2f2;
+    padding-right: 35px;
+    background-color: #3ae3e3;
+}
+
+#headrow{
+
+}
+h3{
+    font-size: 26px;
+    margin-bottom: 0px;
+    color: blueviolet;
+}
+footer{
+    background-color: gray;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+h4{
+    margin-bottom: 0px;
+padding: 2px;
+font-size: 20px;
+}
+footer div{
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 0px;
+}
+#idauthoremail{
+    font-size: 20px;
+    padding: 5px;
+}
