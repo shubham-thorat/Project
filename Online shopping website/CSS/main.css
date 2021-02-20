@@ -6,7 +6,8 @@
 }
 
 #backimg {
-    background-image: url("/img/index.jpg");
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+    /* background-image: url("/img/index.jpg"); */
     background-repeat: no-repeat;
     background-size: 100% 113%;
 

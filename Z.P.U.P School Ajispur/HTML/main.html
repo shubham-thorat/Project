@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Z.P.U.P SCHOOL AJISPUR </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    /*-------------------------------------------------------------*/
+    .rs-header-top {
+        display: flex;
+        /* border: 2px solid gold; */
+        height: 140px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: gray; */
+        background-image: url("https://source.unsplash.com/1600x900/?school");
+        background-size: contain;      
+    }
+    
+    .rs-header-top .rs-header-element {
+        /* border: 2px solid green; */
+        height: 68px;
+        display: flex;
+        flex-direction: row;
+        /* background-color: gray; */
+    }
+
+    .rs-header-top .rs-header-element a {
+        list-style-type: none;
+        text-decoration: none;
+        color: red;
+        margin: 5px 7px;
+        font-size: 17px;
+    }
+
+    .rs-header-top .rs-header-element img {
+        height: 50px;
+        width: 70px;
+    }
+
+    #element-1 {
+        position: absolute;
+        left: 1%;
+    }
+
+    @media (max-width:870px) {
+        #element-1 {
+            display: none;
+            /* visibility: hidden; */
+        }
+
+        #element-3 {
+            display: none;
+        }
+    }
+
+    #element-2 img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+        /* min-width: 250px; */
+    }
+
+    #element-3 {
+        position: absolute;
+        right: 1%;
+    }
+
+    /*------------------------------------------------------------------*/
+    .navbar {
+        display: flex;
+        font-size: 25px;
+        /* border: 2px solid green; */
+        width: 100%;
+        height: auto;
+        align-items: center;
+        /* justify-content: center; */
+        background-color: #131313d6;
+        flex-wrap: wrap;
+    }
+
+    .nav-tab a {
+        /* border: 2px solid red; */
+        text-decoration: none;
+        list-style-type: none;
+        margin: 2px 50px;
+        color: white;
+    }
+
+    /* .searchbox {
+        border: 2px solid white;
+        position: absolute;
+        right: 25px;
+        width: 30%;
+    } */
+
+    #search {
+        padding: 8px 45px;
+        margin: 5px 10px;
+        margin-right: 2px;
+    }
+    input[type="button"]{
+        padding: 5px 12px;
+        margin: 5px 1px;
+    }
+    @media (max-width: 350px) {
+       #searchbox{
+           display: none;
+       } 
+    }
+   
+</style>
+
+<body>
+    <header>
+        <div class="rs-header-top">
+            <div class="rs-header-element" id="element-1">
+                <img src="/IMAGE/mail-us.png" alt="thoratshubham048@gmail.com">
+                <a href="mailto:gajananthorat2020@gmail.com">
+                    <div> Mail Us : </div>
+                    <span> gajananthorat2020@gmail.com </span>
+                </a>
+            </div>
+            <div class="rs-header-element" id="element-2">
+                <img src="/IMAGE/logo2.png" alt="Z.P.U.P SCHOOL AJISPUR">
+            </div>
+            <div class="rs-header-element" id="element-3">
+                <img src="/IMAGE/phone-call-2.jpg">
+                <a href="tel:9822968594">
+                    <div> Call Us : </div>
+                    <span> +91 9822968594 </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="nav-tab"> <a href="#"> Home </a> </div>
+            <div class="nav-tab"> <a href="#"> Gallery </a></div>
+            <div class="nav-tab"> <a href="#"> Teachers </a></div>
+            <div class="nav-tab"><a href="#"> Events </a> </div>
+            <div class="nav-tab"> <a href="#"> About </a></div>
+            <div class="nav-tab" id="searchbox">
+                <input type="text" name="search" id="search">
+                <input type="button" value="Search">
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
