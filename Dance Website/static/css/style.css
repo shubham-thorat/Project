@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+/* navbar section */
+#navbar{
+    display: flex;
+    background-color: #dd6c6c;
+    color: black;
+    padding: 25px 14px;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar #logo img{
+    width:110px;
+    height: 60px;
+    /* margin-left:27px */
+    margin-left: 27px;
+    margin-right: 80px;
+}
+#navbar ul{
+    display: flex;
+    /* background-color: blueviolet; */
+   /* justify-content:space-evenly; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    /* width: 66%; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    margin: 2px 30px;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 6px 28px;
+    cursor: pointer;
+    background-color: darkgray;
+    border-radius: 23px;
+}
+
+#navbar li a:hover{
+    color:white;
+}
+
+#introsection{
+    /* background: url('../static/bg.jpg') center center/cover; */
+    background: url('/img/bg-7.jpg') center center/cover;
+    /* opacity: 0.7; */
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    background-color: red;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 35px;
+    padding-bottom: 40px;
+} 
+
+#introsection div{
+    text-align: center;
+}
+
+#introsection div.small{
+    font-size: 26px;
+    text-align: center;
+}
+
+
+#missionsection{
+    background-color: aqua;
+    /* height: 300px; */
+    padding-top: 15px;
+}
+#missionsection h1{
+    text-align: center;    
+    font-size: 28px;
+}
+#missionsection .cards{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#missionsection .card{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 30%;
+    height: 180px;
+    margin: 23px 20px;
+    padding: 14px 11px;
+    background-color: burlywood;
+    /* text-align: justify; */
+    font-family: 'Courgette', cursive;
+}
+#missionsection .card .card-box{
+    display: flex;
+    justify-content: space-between;
+}
+#missionsection .card .card-box .card-img img{
+    height: 100px;
+    width: 100px;
+}
+#missionsection .card .card-box .card-content{
+    padding: 5px 5px;
+    text-align: justify;
+    
+}
+
+.card h3{
+    text-align: center;
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sponsorsection{
+    /* height: 212px; */
+    background-color: #f9b5c2;
+    padding-top: 15px;
+} 
+
+#sponsorsection h1{
+    text-align: center;
+    font-size: 28px;
+}
+#sponsors{
+    display: flex;
+    /* height: 150px; */
+    /* max-width: 1000px; */
+    /* margin: 27px auto; */
+    justify-content: center;
+    align-items: center;
+}
+#sponsors .spImage{
+    height: 120px;
+    margin: 20px;
+    
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width : 1080px){
+    #missionsection .card .card-box .card-content {
+       font-size: 13px;
+    }
+    #navbar li a{
+        padding: 6px 7px;
+        /* background-color: yellow; */
+    }
+    /* #sponsors .spImage{
+        height: 150px;
+        width: 150px;
+    } */
+    #sponsors{
+        /* height: 100%; */
+        width: 84%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    }
+}
+
+@media screen and (max-width : 890px){
+    #missionsection .cards{
+        flex-direction: column;
+    }
+    #missionsection .card{
+        width: 80%;
+    }
+    #missionsection .card .card-box .card-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar li{
+        margin: 2px 15px;
+    }
+    #nvbar ul{
+        justify-content: center;
+    }
+    #sponsors .spImage{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 760px){
+    #missionsection .card{
+        padding: 0;
+        /* text-align: center; */
+    }
+    #navbar{
+     flex-direction: column;
+    }
+    
+    #navbar #logo img{
+     margin: 0px;
+    }
+    #navbar ul{
+        width: 100%;
+        justify-content: space-around;
+        margin: 12px 0px;
+        flex-direction: column;
+    }
+    #navbar ul li{
+        margin: 10px 10px;
+    }
+    
+    #navbar li a{
+        /* padding: 5px; */
+        width: 20rem;
+        display: block;
+        text-align: center;
+    }
+
+    #introsection div{
+        font-size: 23px;
+    }
+    #introsection div.small{
+        font-size: 20px;
+    }
+    /* #sponsors{
+        flex-direction: column;
+    } */
+}
+@media screen and (max-width : 350px){
+    #missionsection .card img{
+        display: none;
+    }
+    #missionsection .card{
+        padding: 0;
+        /* text-align: center; */
+    }
+    #navbar li a{
+        /* padding: 5px; */
+        width: 10rem;
+        /* display: block; */
+        /* text-align: center; */
+    }
+    
+}
