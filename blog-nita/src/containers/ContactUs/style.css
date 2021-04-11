@@ -1,0 +1,20 @@
+.CardBox{
+    display: flex;
+    border: 2px solid black;
+    height: auto;
+}
+.ImageBox{
+    box-sizing: border-box;
+    text-align: end;
+    margin: 10px;
+}
+.ImageBox img{
+    height: 50%;
+}
+.CardBox .cardBoxElement{
+    list-style-type: none;
+    font-size: 1.7rem;
+}
+.CardBox .cardBoxElement a{
+    text-decoration: none;
+}

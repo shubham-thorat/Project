@@ -1,0 +1,24 @@
+.post-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-box .postBody{
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.post-box div .btn{
+    padding: 3px;
+    font-size: 16px;
+    margin: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}

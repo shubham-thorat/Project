@@ -1,0 +1,17 @@
+body{
+    background-color: #e9eaed;
+    font-family: 'Oswald', sans-serif;
+}
+
+.App{
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #000000a6;
+    color: white;
+    font-size: 20px;
+}

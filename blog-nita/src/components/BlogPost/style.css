@@ -1,0 +1,39 @@
+.blogpost{
+    width: 70%;
+    background-color: white;
+}
+.blogcategory{
+    display: block;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.blogHeader{
+    text-align: center;
+}
+.postTitle{
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 2px;
+}
+.postImageContainer{
+    width: 100%;
+    padding:5px;
+    box-sizing: border-box;
+}
+.postImageContainer img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.post-message{
+    /* textAlign :"justify" ,padding:"20px",fontSize:"20px",fontWeight:"390",letterSpacing:"0.5px" */
+    text-align:justify;
+    padding : 20px;
+    font-size: 20px;
+    font-weight: 390;
+    letter-spacing: 0.5px;
+    text-indent: 110px;
+}
